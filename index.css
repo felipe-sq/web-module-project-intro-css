@@ -1,0 +1,188 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+h1 {
+    font-family: "Chelsea Market", sans-serif;
+    text-align: center;
+    font-size: 3.750em;
+}
+
+body {
+    font-family: "Roboto Mono", serif;
+    text-align: center;
+    padding: 1.50em;
+    margin: 1.250em;
+}
+
+.header-container {
+    margin: 0.625em 1.250em;
+    padding: 1.250em 0.625em 6.250em;
+}
+
+.header-nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.header-nav a {
+    color: white;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+div.header-img img {
+    border-radius: 18.750em;
+    width: 25%;
+    height: 20%;
+    margin: 0.625em 3.2em 3.2em;
+    float: left;
+}
+
+.header-nav {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+div.header-nav a {
+    border-radius: 0.938em;
+    padding: 1.250em;
+    margin: 1.250em 3em 1.625em 2.250em;
+    text-decoration: none;
+    font-size: 1.250em;
+    display: inline-block;
+}
+
+div.header-nav #link1 {
+    background-color: #FF764e;
+}
+
+div.header-nav #link2 {
+    background-color: #5ED3EB;
+}
+
+div.header-nav #link3 {
+    background-color: #FFCD69;
+}
+
+.section-one {
+    background-color: #ddb9a3;
+    color: white;
+}
+
+#bold-words {
+    font-weight: bold;
+}
+
+.image-one {
+    text-align: center;
+    margin: 0 18% 0%;
+    padding: 0 20% 0.375em;
+    border: 0.375em;
+}
+
+.image-one img {
+    height: auto;
+    width: 50%
+}
+
+.image-two {
+    text-align: center;
+    margin: 0 18% 0;
+    padding: 0 20% 0;
+    border: 0.375em;
+}
+
+.image-two img {
+    height: auto;
+    width: 50%;
+}
+
+
+.footer-content {
+    background-color: #F9E7DC;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+}
+
+div.footer-nav a {
+    border-radius: 1.0em;
+    padding: 1.250em;
+    margin: 1.60em 3.2em 1.250em;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 1.250em;
+    display: inline-block;
+}
+
+.footer-img img {
+    display: inline-block;
+    max-height: 50%;
+    width: 100%;
+}
+
+div.footer-nav #link1 {
+    background-color: #FF764e;
+}
+
+div.footer-nav #link2 {
+    background-color: #5ED3EB;
+}
+
+div.footer-nav #link3 {
+    background-color: #FFCD69;
+}
