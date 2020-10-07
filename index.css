@@ -76,18 +76,26 @@ div.header-nav #link3 {
 
 .image-one {
     text-align: center;
-    display: inline-block;
-    margin: 10%;
-    padding: 10%;
-    border: 10px;
+    margin: 0 18% 0%;
+    padding: 0 20% 5px;
+    border: 5px;
+}
+
+.image-one img {
+    height: auto;
+    width: 50%
 }
 
 .image-two {
     text-align: center;
-    display: inline-block;
-    margin: 10%;
-    padding: 10%;
-    border: 10px;
+    margin: 0 18% 0;
+    padding: 0 20% 0;
+    border: 5px;
+}
+
+.image-two img {
+    height: auto;
+    width: 50%;
 }
 
 .footer-nav {
