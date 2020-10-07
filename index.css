@@ -46,11 +46,12 @@ table {
 
 h1 {
     font-family: "Chelsea Market", sans-serif;
+    text-align: center;
 }
 
 body {
     font-family: "Roboto Mono", serif;
-    background-color: #ddb9a3;
+    text-align: center;
 }
 div.header-nav #link1 {
     background-color: #FF764e;
@@ -65,12 +66,28 @@ div.header-nav #link3 {
 }
 
 .section-one {
-    background-color: #ffbf80;
+    background-color: #ddb9a3;
     color: white;
 }
 
 #bold-words {
     font-weight: bold;
+}
+
+.image-one {
+    text-align: center;
+    display: inline-block;
+    margin: 10%;
+    padding: 10%;
+    border: 10px;
+}
+
+.image-two {
+    text-align: center;
+    display: inline-block;
+    margin: 10%;
+    padding: 10%;
+    border: 10px;
 }
 
 .footer-nav {
