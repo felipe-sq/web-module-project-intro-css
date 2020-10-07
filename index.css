@@ -41,7 +41,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } */
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+h1 {
+    font-family: "Chelsea Market", sans-serif;
+}
+
+body {
+    font-family: "Roboto Mono", serif;
+    background-color: #ddb9a3;
+}
 div.header-nav #link1 {
     background-color: #FF764e;
 }
@@ -52,6 +62,19 @@ div.header-nav #link2 {
 
 div.header-nav #link3 {
     background-color: #FFCD69;
+}
+
+.section-one {
+    background-color: #ffbf80;
+    color: white;
+}
+
+#bold-words {
+    font-weight: bold;
+}
+
+.footer-nav {
+    background-color: #F9E7DC;
 }
 
 div.footer-nav #link1 {
