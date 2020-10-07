@@ -47,14 +47,58 @@ table {
 h1 {
     font-family: "Chelsea Market", sans-serif;
     text-align: center;
+    font-size: 60px;
 }
+
+
 
 body {
     font-family: "Roboto Mono", serif;
     text-align: center;
 }
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav a {
+    color: white;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+div.header-img img {
+    border-radius: 300px;
+    width: 25%;
+    height: 20%;
+    margin: 10px 50px 50px;
+    float: left;
+}
+
+.header-nav {
+    margin: 0 auto;
+    width: 700px;
+}
+
+div.header-nav a {
+    border-radius: 15px;
+    padding: 20px 16px;
+    margin: 10px 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
 div.header-nav #link1 {
     background-color: #FF764e;
+
 }
 
 div.header-nav #link2 {
@@ -98,18 +142,40 @@ div.header-nav #link3 {
     width: 50%;
 }
 
+
 .footer-nav {
     background-color: #F9E7DC;
 }
 
+.footer-nav a {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-nav img {
+    height: 20%;
+}
+
 div.footer-nav #link1 {
     background-color: #FF764e;
+    border-radius: 15px;
+    padding: 14px 16px;
+    margin: 20px;
+    text-decoration: none;
 }
 
 div.footer-nav #link2 {
     background-color: #5ED3EB;
+    border-radius: 15px;
+    padding: 14px 16px;
+    margin: 20px;
+    text-decoration: none;
 }
 
 div.footer-nav #link3 {
     background-color: #FFCD69;
+    border-radius: 15px;
+    padding: 14px 16px;
+    margin: 20px;
+    text-decoration: none;
 }
