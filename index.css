@@ -47,19 +47,25 @@ table {
 h1 {
     font-family: "Chelsea Market", sans-serif;
     text-align: center;
-    font-size: 60px;
+    font-size: 3.750em;
 }
-
-
 
 body {
     font-family: "Roboto Mono", serif;
     text-align: center;
+    padding: 1.50em;
+    margin: 1.250em;
+}
+
+.header-container {
+    margin: 0.625em 1.250em;
+    padding: 1.250em 0.625em 6.250em;
 }
 
 .header-nav {
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-around;
 }
 
 .header-nav a {
@@ -76,29 +82,29 @@ body {
 }
 
 div.header-img img {
-    border-radius: 300px;
+    border-radius: 18.750em;
     width: 25%;
     height: 20%;
-    margin: 10px 50px 50px;
+    margin: 0.625em 3.2em 3.2em;
     float: left;
 }
 
 .header-nav {
     margin: 0 auto;
-    width: 700px;
+    display: inline-block;
 }
 
 div.header-nav a {
-    border-radius: 15px;
-    padding: 20px 16px;
-    margin: 10px 20px;
-    margin-bottom: 20px;
+    border-radius: 0.938em;
+    padding: 1.250em;
+    margin: 1.250em 3em 1.625em 2.250em;
     text-decoration: none;
+    font-size: 1.250em;
     display: inline-block;
 }
+
 div.header-nav #link1 {
     background-color: #FF764e;
-
 }
 
 div.header-nav #link2 {
@@ -121,8 +127,8 @@ div.header-nav #link3 {
 .image-one {
     text-align: center;
     margin: 0 18% 0%;
-    padding: 0 20% 5px;
-    border: 5px;
+    padding: 0 20% 0.375em;
+    border: 0.375em;
 }
 
 .image-one img {
@@ -134,7 +140,7 @@ div.header-nav #link3 {
     text-align: center;
     margin: 0 18% 0;
     padding: 0 20% 0;
-    border: 5px;
+    border: 0.375em;
 }
 
 .image-two img {
@@ -143,39 +149,40 @@ div.header-nav #link3 {
 }
 
 
-.footer-nav {
+.footer-content {
     background-color: #F9E7DC;
 }
 
-.footer-nav a {
-    display: flex;
-    flex-direction: row;
+.footer-nav {
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
 }
 
-.footer-nav img {
-    height: 20%;
+div.footer-nav a {
+    border-radius: 1.0em;
+    padding: 1.250em;
+    margin: 1.60em 3.2em 1.250em;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 1.250em;
+    display: inline-block;
+}
+
+.footer-img img {
+    display: inline-block;
+    max-height: 50%;
+    width: 100%;
 }
 
 div.footer-nav #link1 {
     background-color: #FF764e;
-    border-radius: 15px;
-    padding: 14px 16px;
-    margin: 20px;
-    text-decoration: none;
 }
 
 div.footer-nav #link2 {
     background-color: #5ED3EB;
-    border-radius: 15px;
-    padding: 14px 16px;
-    margin: 20px;
-    text-decoration: none;
 }
 
 div.footer-nav #link3 {
     background-color: #FFCD69;
-    border-radius: 15px;
-    padding: 14px 16px;
-    margin: 20px;
-    text-decoration: none;
 }
